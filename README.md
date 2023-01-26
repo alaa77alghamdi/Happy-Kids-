@@ -20,5 +20,11 @@ This project provides the most enterinment tours for kids
 * VS Code
 * GitHub & GitHub pages
 
+## Contributores
+1. [Links](https://github.com/alaa77alghamdi/)
+2. [Links](https://github.com/Fatemah-92)
+3. [Links](https://github.com/Samah1899/)
+4. [Links](https://github.com/Ameerahalshihry)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

@@ -149,13 +149,34 @@ footer li {
     align-items: center;
     font-size: 55px;
     text-align: center;
-    justify-content: space-between;
-}
+    justify-content: space-around;}
 .side-img{
-    width: 15%;
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    bottom: 60px;
+}
+.right{
+    right: 0;
+}
+.left{
+    left:0
 }
 .contact-content{
-    width: 50vw;
+    text-align: center;
+    width: 50%;
+}
+/*.........................Contact us responsive...............*/
+@media only screen and (max-width: 500px) {
+.right, .left{
+    display: none;
+}
+.contact-content{
+    width: 90%;
+}
+.contact-title{
+    font-size: 2rem;
+}
 }
 /*.........................responsive...........................*/
 

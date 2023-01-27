@@ -136,10 +136,73 @@ footer ul {
 footer li {
     display: inline;
 }
+/*.........................Join us form...........................*/
+label{
+    font-size: 1rem;
+}
+.joinus-title{
+    text-align: center;
+}
+.joinus-container{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10%;
+}
+.joinus-content{
+    text-align: left;
+}
+.joinus-side-img {
+    width:380px;
+    /* height: 90%; */
+    /* position: relative;
+    bottom:0px; */
+}
+/*.........................join us responsive...............*/
+@media only screen and (max-width: 500px) {
+    .joinus-side-img {
+        display: none;
+    }
+    .joinus-container{
+        margin: 5px;
+    }
+}
+/*.........................Contact us ...........................*/
 
-
-
-
+.contactus-container{
+    display: flex;
+    align-items: center;
+    font-size: 55px;
+    text-align: center;
+    justify-content: space-around;}
+.side-img{
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    bottom: 60px;
+}
+.right{
+    right: 0;
+}
+.left{
+    left:0
+}
+.contact-content{
+    text-align: center;
+    width: 50%;
+}
+/*.........................Contact us responsive...............*/
+@media only screen and (max-width: 500px) {
+.right, .left{
+    display: none;
+}
+.contact-content{
+    width: 90%;
+}
+.contact-title{
+    font-size: 2rem;
+}
+}
 /*.........................responsive...........................*/
 
 @media only screen and (max-width: 1100px) {
@@ -172,11 +235,93 @@ footer li {
     }
     .title_section {
         font-size: 23px;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .second_description {
         font-size: 20px;
     }
+    .joinus-container{
+        flex-direction: column;
+    }
     
 }
-  
+
+/*.........................pages(1,2,3,4,5,6).html...........................*/
+.container1{
+
+    padding-left: 7rem;
+    margin: 5rem;
+    
+    }
+    
+    .planList{
+        padding-left: 1rem;
+    }
+    
+    
+    .JoinUs{
+        display: flex;
+        justify-content: center;
+        border: #92b398;
+        
+    }
+
+    .section1, .section2 ,.section3, .section4,.price,.planList p{
+
+        font-size: 22px;
+        
+    }
+
+    .b1 {
+        position: relative;
+        background-color: #92b398;
+        border: none;
+        font-size: 28px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .b1:after {
+        content: "";
+        background: #90EE90;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px!important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      
+      .b1:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+
+
+      .images {
+        width: 40%;
+        height: 40%;
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 7%;
+    }
+      
+    .images img {
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+      
+    .images:hover img {
+        transform: scale(1.5);
+    }

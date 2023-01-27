@@ -180,3 +180,27 @@ footer li {
     
 }
 
+/*.........................Card(1,2,3,4,5,6).html...........................*/
+.container1{
+
+    padding-left: 7rem;
+    margin: 5rem;
+    
+    }
+    
+    .planList{
+        padding-left: 1rem;
+    }
+    
+    
+    .JoinUs{
+        display: flex;
+        justify-content: center;
+        border: #92b398;
+        
+    }
+
+    .section1, .section2 ,.section3, .section4,.price,.planList p{
+
+        font-size: 25px;
+    }

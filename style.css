@@ -120,7 +120,8 @@ footer {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: #f5ca6d;
+    /* background-color: #f5ca6d; */
+    background-color: #E8B17A;
     padding: 0% 10%;
 }
 .footer-name {
@@ -171,6 +172,7 @@ footer li {
     }
     .title_section {
         font-size: 23px;
+        flex-direction: column;
     }
     .second_description {
         font-size: 20px;

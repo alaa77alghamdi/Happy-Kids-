@@ -174,7 +174,8 @@ label{
     align-items: center;
     font-size: 55px;
     text-align: center;
-    justify-content: space-around;}
+    justify-content: space-around;
+}
 .side-img{
     width: 20%;
     height: 80%;
@@ -191,7 +192,18 @@ label{
     text-align: center;
     width: 50%;
 }
+.contact-title{
+    margin-top: 80px;
+}
 /*.........................Contact us responsive...............*/
+@media only screen and (max-width: 768px) {
+    .contact-title{
+        font-size: 3rem;
+        margin-top: 40px;
+
+    }
+   
+    }
 @media only screen and (max-width: 500px) {
 .right, .left{
     display: none;
@@ -201,6 +213,7 @@ label{
 }
 .contact-title{
     font-size: 2rem;
+    margin-top: 0;
 }
 }
 /*.........................responsive...........................*/

@@ -137,11 +137,36 @@ footer li {
     display: inline;
 }
 /*.........................Join us form...........................*/
+label{
+    font-size: 1rem;
+}
+.joinus-title{
+    text-align: center;
+}
 .joinus-container{
     display: flex;
-    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10%;
 }
-
+.joinus-content{
+    text-align: left;
+}
+.joinus-side-img {
+    width:380px;
+    /* height: 90%; */
+    /* position: relative;
+    bottom:0px; */
+}
+/*.........................join us responsive...............*/
+@media only screen and (max-width: 500px) {
+    .joinus-side-img {
+        display: none;
+    }
+    .joinus-container{
+        margin: 5px;
+    }
+}
 /*.........................Contact us ...........................*/
 
 .contactus-container{

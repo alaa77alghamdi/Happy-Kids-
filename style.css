@@ -142,8 +142,21 @@ footer li {
     justify-content: space-around;
 }
 
+/*.........................Contact us ...........................*/
 
-
+.contactus-container{
+    display: flex;
+    align-items: center;
+    font-size: 55px;
+    text-align: center;
+    justify-content: space-between;
+}
+.side-img{
+    width: 15%;
+}
+.contact-content{
+    width: 50vw;
+}
 /*.........................responsive...........................*/
 
 @media only screen and (max-width: 1100px) {

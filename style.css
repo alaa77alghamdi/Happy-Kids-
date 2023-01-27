@@ -136,7 +136,11 @@ footer ul {
 footer li {
     display: inline;
 }
-
+/*.........................Join us form...........................*/
+.joinus-container{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
@@ -172,10 +176,13 @@ footer li {
     }
     .title_section {
         font-size: 23px;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .second_description {
         font-size: 20px;
+    }
+    .joinus-container{
+        flex-direction: column;
     }
     
 }

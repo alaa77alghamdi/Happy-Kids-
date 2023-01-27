@@ -195,7 +195,7 @@ label{
 .contact-title{
     margin-top: 80px;
 }
-/*.........................Contact us responsive...............*/
+/*.........................Contact us and About us responsive ...............*/
 @media only screen and (max-width: 768px) {
     .contact-title{
         font-size: 3rem;

@@ -2,7 +2,9 @@
 # Kids Time
 
 ## :round_pushpin: Introduction
-This project provides the most enterinment activities for kids
+This project provides the most enterinment activities for kids 
+  and the best trips, with a high level of care, safety 
+  and responsibility, and entertaining children.
 
 ## :dart: Featurs
 1. User can show all activity.

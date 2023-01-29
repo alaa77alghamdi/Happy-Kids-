@@ -1,0 +1,165 @@
+/*.........................pages(1,2,3,4,5,6).html...........................*/
+
+.container1{
+
+   
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 6%;
+    }
+    
+    .planList{
+        padding-left: 1rem;
+    }
+    
+    
+    .JoinUs{
+       
+        border: #92b398;
+        
+    }
+
+    .section1, .section2 ,.section3, .section4,.planList p{
+
+        font-size: 22px;
+        
+    }
+
+    .b1 {
+        position: relative;
+        background-color: #f5ca6d;
+        border: none;
+        font-size: 28px;
+        color: #152659;
+        padding: 6px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .b1:after {
+        content: "";
+        background: #90EE90;
+        display: block;
+        position: absolute;
+        padding-top: 100%;
+        padding-left: 350%;
+        margin-left: -20px!important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      
+      .b1:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+
+.images img{
+
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+      .images {
+        width: 55%;
+        height: 55%;
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 7%;
+        display: flex;
+        justify-content: center;
+        margin-left: 26%;
+    }
+      
+    .images img {
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+      
+    .images:hover img {
+        transform: scale(1.5);
+    }
+
+
+    
+   
+
+    .card-Sticky {
+     background-color: #ffffff;
+         text-align: center ;
+         overflow: auto;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 5%;
+        border-radius: 5%;
+        padding: 25px;
+      }
+      
+      .main {
+       
+        display: flex;
+        flex-direction: column;
+      }
+.cardPrice{
+    border: #060807;
+
+}
+
+/* -------------------------responsive------------------------- */
+@media only screen and (max-width: 768px) {
+  /* .container1{
+    flex-direction: column;
+  }
+  h1{
+    font-size: 4px;
+  }
+  .card-Sticky{
+    width: 30%
+  } */
+ 
+  }
+@media only screen and (max-width: 768px){
+  .container1{
+    flex-direction: column;
+  }
+  .card-Sticky{
+    width: 200px;
+    margin-left: 20%;
+    }
+    .images{
+      width:100%;
+      margin-left: 0;
+    }
+    h1, h2{
+      font-size: 1.5rem !important;
+    }
+    p, li{
+      font-size: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px)and (min-width: 500px) {
+  .card-Sticky{
+    position: sticky;
+    width: 300px;
+    margin-left: 30%;
+    }
+  .b1{
+      width:300px;
+    }
+    /*
+    .images {
+      width: 70%;
+    }
+    */
+  
+}

@@ -51,7 +51,11 @@ nav a:hover, .active {
     align-items: center;
     font-size: 55px;
     text-align: center;
+}
+.line {
     border-bottom: 7px solid rgba(250, 250, 250, 0.784);
+    margin-left: 0;
+    margin-right: 0;
 }
 .title_section img {
     width: 70%;
@@ -72,41 +76,42 @@ nav a:hover, .active {
     justify-content: center;
     grid-template-columns: 27% 27% 27%;
     column-gap: 6%;
-    row-gap: 25%;    
+    row-gap: 25%;   
+    margin-bottom: 180px; 
 }
 
-/*.........................card _section...........................*/
+/*.........................card section...........................*/
 .card {
     padding: 7px;
     background: #fff;
     border-radius: 10px;
-    position: relative; /*  */
+    position: relative; 
     transition: transform 1s ease-in-out;
 }
 .card-body {
-    position: relative; /*  */
+    position: relative; 
     border: 1px dashed #ddd;
     min-height: 100px;
     background: #fff;
-    z-index: 1; /*  */
+    z-index: 1; 
 }
 .card:hover {
-    transform: translateY(-25px); /*  */
+    transform: translateY(-25px); 
     box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
-    transition: transform 1s ease-in-out; /*  */
+    transition: transform 1s ease-in-out; 
 }
-.card:before { /*  */
-    content: ""; /*  */
+.card:before { 
+    content: ""; 
     width: 50%;
     height: 50%;
-    position: absolute; /*  */
+    position: absolute; 
     right: 0;
     top: 0;
     background: -webkit-linear-gradient(#d17b6a, #d17b6a);
     border-top-right-radius: 10px;
     transition: width 1s ease-in-out;
 }
-.card:after { /*  */
+.card:after { 
     content: "";
     width: 50%;
     height: 50%;
@@ -117,12 +122,12 @@ nav a:hover, .active {
     border-bottom-left-radius: 10px;
     transition: width 1s ease-in-out;
 }
-.card:hover::before, .card:hover::after { /*  */
+.card:hover::before, .card:hover::after { 
     width: 100%;
     transition: width 1s ease-in-out;
 }
 .card-img {
-    position: absolute; /*  */
+    position: absolute; 
     right: 1px;
     top: -60px;
     text-align:end;
@@ -155,7 +160,6 @@ footer {
     align-items: center;
     /* background-color: #f5ca6d; */
     background-color: #a29175;
-    margin-top: 160px;
     padding: 0% 10%;
 }
 .footer-name {
@@ -170,9 +174,94 @@ footer ul {
 footer li {
     display: inline;
 }
+/*.........................Join us form...........................*/
+label{
+    font-size: 1rem;
+}
+.joinus-title{
+    text-align: center;
+}
+.joinus-container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 10%;
+}
+.joinus-content{
+    text-align: left;
+}
+.joinus-side-img {
+    width:380px;
+    /* height: 90%; */
+    /* position: relative;
+    bottom:0px; */
+}
+/*.........................join us responsive...............*/
+@media only screen and (max-width: 500px) {
+    .joinus-side-img {
+        display: none;
+    }
+    .joinus-container{
+        margin: 5px;
+    }
+}
 
-/*.........................responsive...........................*/
+/*.........................Contact us ...........................*/
+.contactus-container{
+    display: flex;
+    align-items: center;
+    font-size: 55px;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+.side-img{
+    width: 20%;
+    height: 75%;
+    position: absolute;
+    bottom: 60px;
+}
+.right{
+    right: 0;
+}
+.left{
+    left:0
+}
+.contact-content{
+    text-align: center;
+    width: 50%;
+}
+.contact-title{
+    margin-top: 80px;
+}
 
+/*.........................Contact us and About us responsive ...............*/
+@media only screen and (max-width: 768px) {
+    .contact-title{
+        font-size: 3rem;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .contactus-container{
+        margin: 15%;
+    }
+    .right, .left{
+        display: none;
+    }
+    .contact-content{
+        width: 90%;
+    }
+    .contact-title{
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    .joinus-container{
+        flex-direction: column;
+    }
+}
+
+/*.........................home page responsive...........................*/
 @media only screen and (max-width: 1024px) {
     .title_section {
         font-size: 35px;
@@ -183,7 +272,8 @@ footer li {
         justify-content: center;
         grid-template-columns: 31% 31% 31%;
         column-gap: 4%;
-        row-gap: 25%;    
+        row-gap: 25%;  
+        margin-bottom: 180px;   
     }
 }
 @media only screen and (max-width: 768px) {
@@ -209,13 +299,11 @@ footer li {
         grid-template-columns: 45% 45%;
         column-gap: 5%;
         row-gap: 15%;    
+        margin-bottom: 250px;
     }
     .card-img img {
-        width: 140px;
+        width: 160px;
     } 
-    footer {
-        margin-top: 250px;
-    }
 }
 @media only screen and (max-width: 520px) {
     header {
@@ -239,8 +327,8 @@ footer li {
         justify-content: center;
         grid-template-columns: 93%;
         row-gap: 8%;    
-    }
-    footer {
-        margin-top: 620px;
+        margin-bottom: 620px;
     }
 }
+
+    

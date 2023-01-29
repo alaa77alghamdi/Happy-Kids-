@@ -1,14 +1,14 @@
 
-# Kids Tour
+# Kids Time
 
 ## :round_pushpin: Introduction
-This project provides the most enterinment tours for kids
+This project provides the most enterinment activities for kids
 
 ## :dart: Featurs
-1. User can show all tours.
-2. User can show specific tour and read more details about it.
-3. The kid can join to spesific tour.
-4. User can contact us if need more information about tours.
+1. User can show all activity.
+2. User can show specific activity and read more details about it.
+3. The kid can join to spesific activity.
+4. User can contact us if need more information about activity.
 
 ## :bulb: Technologies
 * HTML
